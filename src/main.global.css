@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+:root {
+  --black3A:        #3A3A3A;
+  --orange:         #ED7117;
+  --white:          #FFFFFF;
+  --whiteF8:        #F8F8F8;
+  --grey93:         #939393;
+  --grey90:         #909090;
+  --grey83:         #838383;
+  --greyDF:         #DFDFE1;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  color: var(--black3A);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
